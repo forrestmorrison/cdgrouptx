@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Ubuntu:ital,wght@1,300;1,400;1,700&display=swap');
 
@@ -16,4 +14,58 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  max-width: 960px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* NavBar */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80%;
+  margin: 0 10px;
+}
+
+.links {
+  display: flex;
+}
+
+a {
+  color: #c99968;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #a19ea1
 }
