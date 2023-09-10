@@ -15,6 +15,7 @@ const Home = () => {
             <p>Have a look around and learn all there is to know about us.</p>
             <p>Take a moment to drop us a line so we can talk about next steps.</p>
           </section>
+          <button>- Find Out More -</button>
         </div>
       </div>
     </div>
