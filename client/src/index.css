@@ -61,11 +61,66 @@ header {
 }
 
 a {
-  color: #c99968;
+  color: #a19ea1;
   text-decoration: none;
   transition: all 0.5s;
 }
 
 a:hover {
-  color: #a19ea1
+  color: #c99968;
+}
+
+/* Home */
+
+.team {
+  width: 100%;
+}
+
+.team-banner {
+  background-color: #333333;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4px;
+}
+
+.team-banner h1 {
+  color: #c99968;
+  margin: 0px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+.team-banner h4 {
+  color: #a19ea1;
+  margin: 10px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome h1 {
+  color: #c99968;
+  font-weight: 300;
+}
+
+.welcome p {
+  text-align: center;
+  margin: 0px;
 }

@@ -17,24 +17,21 @@ const Navbar = () => {
             <div className="links">
                 <Link to="/"
                     style={{
-                        margin: "0 10px",
-                        fontWeight: "bold",
+                        margin: "0 20px",
                     }}
                 >
                     <a href='/'>home</a>
                 </Link>
                 <Link to="/our-leadership"
                     style={{
-                        margin: "0 10px",
-                        fontWeight: "bold",
+                        margin: "0 20px",
                     }}
                 >
                     <a href='/our-leadership'>our leadership</a>
                 </Link>
                 <Link to="/services"
                     style={{
-                        margin: "0 10px",
-                        fontWeight: "bold",
+                        margin: "0 20px",
                     }}
                 >
                     <a href='/services'>services</a>
