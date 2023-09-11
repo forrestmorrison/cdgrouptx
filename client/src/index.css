@@ -118,6 +118,7 @@ a:hover {
 
 .welcome h1 {
   color: #c99968;
+  font-size: 36px;
   font-weight: 300;
 }
 
@@ -139,4 +140,47 @@ button:hover {
   background-color: #c99968;
   color: white;
   transition: 0.5s;
+}
+
+.about {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about h2 {
+  color: #c99968;
+  font-weight: 300;
+}
+
+.welcome p {
+  text-align: center;
+  margin: 0px;
+}
+
+.home-info {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.home-info section {
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+}
+
+.home-info h4 {
+  text-align: center;
+  color: #a19ea1;
+  font-weight: 300;
+}
+
+.home-info p {
+  text-align: center;
 }
