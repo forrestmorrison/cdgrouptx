@@ -41,6 +41,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 110px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -53,9 +54,6 @@ header {
   justify-content: center;
 }
 
-.container {
-  width: 100%;
-}
 
 .navbar {
   width: 100%;
@@ -64,6 +62,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 
 .logo {
@@ -318,6 +318,10 @@ button:hover {
 
 @media only screen and (max-width: 750px){
   /* Home */
+
+  .team-banner {
+    padding: 0 20px;
+  }
 
   .home-info {
     flex-direction: column;

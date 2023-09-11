@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Team from "../images/cdgroup-team-cropped.png"
 
 const Home = () => {
@@ -15,7 +16,9 @@ const Home = () => {
             <p>Have a look around and learn all there is to know about us.</p>
             <p>Take a moment to drop us a line so we can talk about next steps.</p>
           </section>
-          <button>- Find Out More -</button>
+          <Link to="/services">
+            <button>- Find Out More -</button>
+          </Link>
         </div>
         <div className="about">
           <h2>What We Do</h2>
