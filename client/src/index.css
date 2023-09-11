@@ -67,7 +67,7 @@ header {
 }
 
 .logo {
-  height: 80%;
+  height: 90%;
   margin: 0 20px;
 }
 
@@ -86,44 +86,6 @@ header {
   color: #c99968;
 }
 
-/* Footer */
-
-.footer {
-  width: 100%;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #333333;
-  color: white;
-}
-
-.footer h5 {
-  font-weight: 300;
-}
-
-.footer-info {
-  width: 100%;
-  padding: 0px 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer .links {
-  display: flex;
-}
-
-.footer a {
-  color: white;
-  text-decoration: none;
-  transition: all 0.5s;
-}
-
-.footer a:hover {
-  color: #c99968;
-}
 
 /* Home */
 
@@ -227,7 +189,7 @@ button:hover {
 }
 
 .home-info section {
-  max-width: 300px;
+  max-width: 320px;
   width: 100%;
   padding: 20px;
 }
@@ -262,7 +224,23 @@ button:hover {
 }
 
 .our-leadership img {
-  height: 200px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.leader-header {
+  display: flex;
+}
+
+.leader-name {
+  color: #c99968;
+  font-weight: 300;
+}
+
+.leader-title {
+  color: #a19ea1;
+  font-weight: 300;
+  margin-left: 10px;
 }
 
 .leadership-info {
@@ -280,6 +258,11 @@ button:hover {
   font-weight: 300;
 }
 
+.services h3 {
+  color: #a19ea1;
+  font-weight: 300;
+}
+
 .services section {
   margin-top: 40px;
   display: flex;
@@ -290,4 +273,94 @@ button:hover {
 .service-items {
   max-width: 280px;
   width: 100%;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333333;
+  color: white;
+}
+
+.footer h5 {
+  font-weight: 300;
+}
+
+.footer-info {
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .links {
+  display: flex;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.footer a:hover {
+  color: #c99968;
+}
+
+
+
+@media only screen and (max-width: 750px){
+  /* Home */
+
+  .home-info {
+    flex-direction: column;
+  }
+
+  .home-info section {
+    max-width: 720px;
+  }
+
+  /* Our Leadership */
+
+	.our-leadership section {
+    flex-direction: column;
+  }
+
+  .leadership-info {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leadership-info p {
+    text-align: center;
+  }
+
+  /* Footer */
+
+  .footer {
+    height: 150px;
+  }
+
+  .footer h5 {
+    text-align: center;
+  }
+
+  .footer-info {
+    flex-direction: column;
+  }
+
+  .footer .links {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
 }

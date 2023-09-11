@@ -9,7 +9,10 @@ const OurLeadership = () => {
       <section>
         <img src={PatDanene} alt="" />
         <div className="leadership-info">
-          <h4>Pat & Danene Conditt - Directors</h4>
+          <div className="leader-header">
+            <h4 className="leader-name">Pat & Danene Conditt</h4>
+            <h4 className="leader-title">Directors</h4>
+          </div>          
           <p>
             Our passion is to help people become their best in all areas of their life - not just as business owners.
             This perspective allows us to operate with compassion and empathy.
@@ -25,7 +28,10 @@ const OurLeadership = () => {
       <section>
         <img src={TonyJessica} alt="" />
         <div className="leadership-info">
-          <h4>Tony & Jessica Nelson - Business Coaches</h4>
+          <div className="leader-header">
+            <h4 className="leader-name">Tony & Jessica Nelson</h4>
+            <h4 className="leader-title">Business Coaches</h4>
+          </div>          
           <p>
             Our talents are aimed at helping people develop their leadership potential so they can create an bigger impact on their families and communities around them.
             We believe that before we change the world around us, we first need to start with our own house and we have collaborated with people over the years to help those changes occur.
@@ -40,7 +46,10 @@ const OurLeadership = () => {
       <section>
         <img src={MichaelKim} alt="" />
         <div className="leadership-info">
-          <h4>Pat & Danene Conditt - Directors</h4>
+          <div className="leader-header">
+            <h4 className="leader-name">Michael & Kim Uschak</h4>
+            <h4 className="leader-title">Business Coaches</h4>
+          </div>
           <p>
             Energy and attention to details are key values we bring to this team.
             Our passion is to help businesses create a culture that helps drive success.
