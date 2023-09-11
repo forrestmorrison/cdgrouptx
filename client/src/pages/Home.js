@@ -2,7 +2,7 @@ import Team from "../images/cdgroup-team-cropped.png"
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="home">
       <img src={Team} alt="team" className="team" />
       <div className="team-banner">
         <h1>Business Development & Support</h1>
