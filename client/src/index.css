@@ -253,3 +253,26 @@ button:hover {
 .leadership-info {
   margin-left: 20px;
 }
+
+/* Services */
+
+.services {
+  margin-bottom: 40px;
+}
+
+.services h1 {
+  color: #c99968;
+  font-weight: 300;
+}
+
+.services section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-items {
+  max-width: 280px;
+  width: 100%;
+}
