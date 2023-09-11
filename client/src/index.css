@@ -46,6 +46,7 @@ header {
 .navbar {
   width: 100%;
   height: 100px;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,17 +57,56 @@ header {
   margin: 0 10px;
 }
 
-.links {
+.navbar .links {
   display: flex;
 }
 
-a {
+.navbar a {
   color: #a19ea1;
   text-decoration: none;
   transition: all 0.5s;
 }
 
-a:hover {
+.navbar a:hover {
+  color: #c99968;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333333;
+  color: white;
+}
+
+.footer h5 {
+  font-weight: 300;
+}
+
+.footer-info {
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .links {
+  display: flex;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.footer a:hover {
   color: #c99968;
 }
 
@@ -102,6 +142,7 @@ a:hover {
 }
 
 .home-content {
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,7 +185,8 @@ button:hover {
 
 .about {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
