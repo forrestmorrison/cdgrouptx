@@ -1,6 +1,13 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Ubuntu:ital,wght@1,300;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
 
 body {
   margin: 0;
@@ -9,6 +16,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: inherit; 
+  min-height: inherit; 
+  margin: 0; 
+  padding: 0;
 }
 
 code {
@@ -17,17 +28,21 @@ code {
 }
 
 .App {
-  max-width: 960px;
   width: 100%;
-  display: block;
+  align-items: center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
 
 main {
+  max-width: 960px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* NavBar */
@@ -39,7 +54,6 @@ header {
 }
 
 .container {
-  max-width: 960px;
   width: 100%;
 }
 
@@ -54,10 +68,11 @@ header {
 
 .logo {
   height: 80%;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .navbar .links {
+  margin: 0 10px;
   display: flex;
 }
 
