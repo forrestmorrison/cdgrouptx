@@ -79,7 +79,7 @@ header {
 .navbar a {
   color: #a19ea1;
   text-decoration: none;
-  transition: all 0.5s;
+  transition: 0.5s;
 }
 
 .navbar a:hover {
@@ -325,7 +325,25 @@ button:hover {
   color: #c99968;
 }
 
+/* Contact */
 
+.contact-icon {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: white;
+  background-color: #c99968;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 15px;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 750px){
   /* Navbar */
@@ -352,7 +370,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     background-color: white;
     top: 10%;
     min-height: 100%;
@@ -369,6 +387,10 @@ button:hover {
 
   .mobile-links a:hover {
     color: #c99968;
+  }
+  
+  .space {
+    margin-bottom: 100px;
   }
 
   /* Home */

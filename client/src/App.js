@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 import Home from "./pages/Home";
 import OurLeadership from "./pages/OurLeadership"
 import Services from "./pages/Services";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/our-leadership" element={<OurLeadership />} />
           <Route path="/services" element={<Services />} />
         </Routes>
+        <Contact />
       </main>
       <footer>
         <Footer />

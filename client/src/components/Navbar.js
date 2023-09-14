@@ -79,6 +79,7 @@ const Navbar = () => {
                 >
                     <a href='/services'>services</a>
                 </Link>
+                <div className="space" />
             </div>
         }
         
