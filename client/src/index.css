@@ -67,7 +67,7 @@ header {
 }
 
 .logo {
-  height: 80%;
+  height: 90%;
   margin: 0 20px;
 }
 
@@ -327,6 +327,87 @@ button:hover {
 
 /* Contact */
 
+.form-container {
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  bottom: 12%;
+  border: solid 1px #c99968;
+  border-radius: 4px;
+  box-shadow: -4px -3px 30px 5px rgba(0,0,0,0.35);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 300px;
+}
+
+.header-box {
+  background-color: #c99968;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.header-text {
+  margin-top: -40px;
+  background-color: #efe0d1;
+  border-radius: 4px;
+  width: 90%;
+  padding: 10px;
+}
+
+.header-text p {
+  margin: 0px;
+}
+
+.contact-form h2 {
+  margin-top: 0px;
+  margin-left: 5px;
+  font-weight: 300;
+}
+
+.form-input {
+  width: 90%;
+  padding: 10px;
+  border: solid 1px #333333;
+  border-radius: 4px;
+  font-family: "Quicksand";
+}
+
+input:focus {
+  outline-offset: 0px;
+  outline: none;
+  border: solid 1px #c99968;
+  border-radius: 4px;
+}
+
+textarea:focus {
+  outline-offset: 0px;
+  outline: none;
+  border: solid 1px #c99968;
+  border-radius: 4px;
+}
+
+.form-button {
+  padding: 10px;
+  margin: 0px;
+  border: solid 2px #c99968;
+  background-color: white;
+  color: #c99968;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #c99968;
+  color: white;
+  transition: 0.5s;
+}
+
 .contact-icon {
   position: fixed;
   bottom: 0;
@@ -441,6 +522,7 @@ button:hover {
   .footer .links {
     margin-bottom: 20px;
     flex-direction: column;
+    align-items: center;
   }
 
 }
