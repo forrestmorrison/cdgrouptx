@@ -350,16 +350,19 @@ button:hover {
     position: fixed;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     background-color: white;
-    align-self: center;
-    margin-top: 100%;
-    margin-bottom: auto;
-    margin-left: 75%;
-    width: 200px;
+    top: 10%;
+    min-height: 100%;
+    height: auto;
+    width: 100%;
   }
 
   .mobile-links a {
     color: #a19ea1;
+    font-size: 24px;
     text-decoration: none;
     transition: all 0.5s;
   }

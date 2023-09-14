@@ -52,8 +52,11 @@ const Navbar = () => {
                 { !nav ? <FaBars /> : <FaTimes /> }
             </div>
         </div>
-        <div className="mobile-links">
+        { 
+            !nav ? <></> : 
+            <div className="mobile-links">
                 <Link to="/"
+                    onClick={handleClick}
                     style={{
                         margin: "0 20px",
                     }}
@@ -61,6 +64,7 @@ const Navbar = () => {
                     <a href='/'>home</a>
                 </Link>
                 <Link to="/our-leadership"
+                    onClick={handleClick}
                     style={{
                         margin: "0 20px",
                     }}
@@ -68,6 +72,7 @@ const Navbar = () => {
                     <a href='/our-leadership'>our leadership</a>
                 </Link>
                 <Link to="/services"
+                    onClick={handleClick}
                     style={{
                         margin: "0 20px",
                     }}
@@ -75,6 +80,8 @@ const Navbar = () => {
                     <a href='/services'>services</a>
                 </Link>
             </div>
+        }
+        
         </>
     )
 }
