@@ -11,7 +11,7 @@ const Contact = () => {
             { 
                 !contact ? <></> :
                 <div className="form-container">                
-                    <form className="contact-form">
+                    <form action="https://getform.io/f/b29f9a9a-752c-4404-942e-4f935b22c05d" method="POST" className="contact-form">
                         <div className="header-box">
                             <h2>CDGroup</h2>
                         </div>
@@ -20,18 +20,21 @@ const Contact = () => {
                         </div>
                         <input 
                             className="form-input"
+                            name="name"
                             type="text"
                             placeholder="Name"
                             required
                         />
                         <input 
                             className="form-input"
+                            name="email"
                             type="email"
                             placeholder="Email"
                             required
                         />
                         <textarea
                             className="form-input"
+                            name="message"
                             type="text"
                             placeholder="How can we help?"
                             rows={10}
