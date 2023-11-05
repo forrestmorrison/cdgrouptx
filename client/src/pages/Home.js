@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Blog from "../components/Blog"
 import Team from "../images/cdgroup-team-cropped.png"
 
 const Home = () => {
@@ -81,6 +82,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Blog />
     </div>
   )
 }
