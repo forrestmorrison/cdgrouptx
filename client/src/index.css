@@ -333,11 +333,11 @@ button:hover {
   right: 0;
   margin-right: 20px;
   padding-bottom: 20px;
-  bottom: 12%;
+  bottom: 15%;
   background-color: white;
   border: solid 1px #c99968;
   border-radius: 4px;
-  box-shadow: -4px -3px 10px 3px lightgray;
+  box-shadow: -1px -1px 5px 1px rgb(150, 150, 150);
 }
 
 .contact-form {
